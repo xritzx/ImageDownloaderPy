@@ -2,7 +2,8 @@ import os
 import urllib.request as ur
 import sys
 import bs4 as bs
-def main():
+
+def download():
     imtype=input("Enter the Name of the folder to save image ")
     url=input("Enter the url you want to scrap images from : ")
     headers={}
@@ -32,5 +33,9 @@ def main():
                 pass
             print(imglink)
             i+=1
+
+def main():
+    download()
+    
 if __name__=="__main__" :
     main()
