@@ -8,9 +8,6 @@ Just head to the webpage you want to Scrap and copy the link.
 git clone https://github.com/xritzx/ImageDownloaderPy
 cd ImageDownloader
 python ImageDownloader.py
-'''
-Linux Users ' ImageDownloader.py '
-'''python
- Enter the Name of the folder to save image [YOUR_FOLDER_NAME]
- Enter the url you want to scrap images from : [URL]
+Enter the Name of the folder to save image [YOUR_FOLDER_NAME]
+Enter the url you want to scrap images from : [URL]
 '''
