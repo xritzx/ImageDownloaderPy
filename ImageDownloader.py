@@ -20,6 +20,8 @@ def write_image(response):
                 pass
             print(imglink)
             i+=1
+    print("Total images found : ",i)
+    print("All images downloaded to current working directory")
 
 def main():
     imtype = input("Enter the Name of the folder to save image ")
